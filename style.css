@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+   nav {
+    display: flex;
+    border: 2px solid black;
+    height: 8vh;
+    justify-content: space-evenly;
+ }
+ .logo {
+    display: flex;
+
+ }
+ .logo p , img{
+    align-self: center;
+ }
+ nav img {
+    width: 2rem;
+    height: 2rem;
+ } 
+ 
+ 
+  ul {
+    display: flex;
+    width: 20vw;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+ }
+ .nav-button {
+    display: flex;
+    width: 65vw;
+    justify-content: end;
+    align-items: center;
+ }
+  .btn-flex{
+    display: flex;
+    width: 6rem;
+    justify-content: space-evenly;
+  
+  }
+  main {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo-section {
+ display: flex;
+ border: 2px solid rgb(65, 42, 42);
+ height: 60vh;
+ justify-content: space-between;
+   
+  }
+  img {
+    border-radius: 1.5rem;
+    width: 15vw;
+    height: 25vh;
+  }
+   
+  
+  .photo-one , .photo-two , .photo-three ,   .photo-four {
+border: 2px solid red;
+height: 20vh;
+width: 10vw;
+  }
+  .photo-four {
+     
+    justify-content: center;
+    flex-shrink: 4;
+    align-self: flex-end;
+  
+  }
+  
+  /* .photo-three {
+align-self: center;
+  } */
+  .try{
+    height: 50vh;
+width: 65vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .try .photo-two {
+align-self: center;
+  }
+  .try .photo-three {
+    align-self: flex-end;
+  }

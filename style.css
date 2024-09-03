@@ -18,9 +18,23 @@ nav {
 .logo {
   display: flex;
 }
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #222;
+    font-weight: 700;
+}
+a:hover {
+     border-bottom: 1px solid #222;
+   
+}
 .logo p,
 img {
   align-self: center;
+}
+.logo p {
+    font-weight: 700;
+    color: rgb(208, 1, 1);
 }
 nav img {
   width: 2rem;
@@ -51,6 +65,7 @@ ul {
   padding: 5px 0px;
   margin: 0px 5px;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .btn-flex {
